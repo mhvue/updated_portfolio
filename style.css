@@ -18,8 +18,9 @@ img {
 }
 
 #profilePic {
-    transform: rotate(90deg);
-    width: 250px;
+    position: relative;
+    top: 30px;
+    left: 50px;
 }
 .navbar {
     text-align: right;
@@ -46,11 +47,10 @@ h2 {
     width: 100%;
 }
 
-/*Portfolio*/
 
 h3 {
     background-color:#4aaaa5;
-    position: absolute;
+    position: relative;
     top: 160px;
     color:white;
     padding: 10px;
@@ -63,15 +63,36 @@ h3 {
     width: 300px;
 }
 
-/* fix headers of h3 as they are static and add media queries to make it look nice */ 
-
-
-/*Contact*/
-
-.btn {
-    background-color:#4aaaa5;
+.contactHeader{
+    position: relative;
+    top: 30px;
+    left: 100px;
+    background-color: gray;
     color: white;
+    padding: 10px;
+    text-align: center;
 }
+
+#emailIcon{
+    position: relative;
+    left: 150px;
+    top:60px;
+    width: 150px;
+}
+
+.LI-profile-badge {
+    position: relative;
+    top: 40px;
+    left: 90px;
+}
+
+
+#gitHubIcon{
+    position: relative;
+    left: 170px;
+    
+}
+
 
 
 /* media queries  */
@@ -85,7 +106,6 @@ width: 200px;
 font-size: 25px;
 }
 
-}
 
 
 @media screen and (max-width: 768px) {
