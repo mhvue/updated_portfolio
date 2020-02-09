@@ -8,12 +8,20 @@ body {
 
 h1 {
     position: relative;
-    top: -50px;
+    top: -90px;
     font-size:50px;
     font-family: 'Courgette', cursive;
     color:white;
     
 } 
+
+ul{
+    position: relative;
+    top:20px;
+}
+#aboutMeHeader{
+    font-weight: bold;
+}
 
 #projectP{
     font-size: 30px;
@@ -31,7 +39,7 @@ img {
 }
 .navbar {
     text-align: right;
-    height: 80px;
+    height: 100px;
    
 }
 
@@ -40,7 +48,7 @@ h2 {
     position: relative;
     top: 5px;
     left: 40px;
-    color:#4aaaa5;
+    color: #00004E;
 
 }
 
@@ -51,6 +59,7 @@ h2 {
     bottom:0%;
     width: 100%;
     color:white;
+    font-family: 'Courgette', cursive;
 }
 
 
@@ -109,7 +118,7 @@ h5 {
 .contactHeader{
     position: relative;
     top: 30px;
-    left: 130px;
+    left: 180px;
     background-color: gray;
     color: white;
     padding: 10px;
@@ -118,14 +127,20 @@ h5 {
 
 #emailIcon{
     position: relative;
-    left: 150px;
+    left: 180px;
     top:60px;
+}
+#emailIcon:hover {
+    border: 2px solid #00004E;
+}
+ #gitHubIcon:hover {
+    border: 2px solid #00004E;
 }
 
 .LI-profile-badge {
     position: relative;
     top: 40px;
-    left: 90px;
+    left: 140px;
 }
 
 
