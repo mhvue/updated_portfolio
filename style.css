@@ -19,6 +19,11 @@ ul{
     position: relative;
     top:20px;
 }
+
+.nav-item:hover {
+    text-decoration: underline;
+
+}
 #aboutMeHeader{
     font-weight: bold;
 }
@@ -34,7 +39,6 @@ img {
 
 #profilePic {
     position: relative;
-    top: 30px;
     left: 50px;
 }
 .navbar {
@@ -43,6 +47,9 @@ img {
    
 }
 
+.headers {
+    font-size: 40px;
+}
 
 h2 {
     position: relative;
