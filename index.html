@@ -10,6 +10,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo&display=swap" rel="stylesheet">
 
 </head>
 
@@ -43,7 +44,7 @@
      
       <div class="container bg-white text-dark  m-10 p-5">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 text-center">
                     <h2>About Me</h2>
                     <hr>
                     <br>
@@ -74,66 +75,58 @@
     <div class="container  bg-white text-dark  m-10 p-5">
         <!--Portfolio section-->
         <div class="row">
-            <div class="col-md-6">
-                <h4>Projects</h4>
+            <div class="col-md-12 text-center">
+                <h2>Projects</h2>
                 <hr>
-                <h3>Book Sleuth</h3>
-                <a href="https://brando5393.github.io/project-1/"><img
-                        src="https://brando5393.github.io/project-1/assets/images/289-2892325_bookshelf-background-clipart.png"
-                        class="img-fluid" alt="bookshelf">
-                </a>
-    
-    
-                <h3>Crystal Collector</h3>
-                <a href="https://mhvue.github.io/unit-4-game"><img src="../unit-4-game/assets/images/cyrstals-cover.jpg"
-                        class="img-fluid" alt="crystals with color of blue,red,white,lavander">
-    
-                </a>
-    
-    
-    
-                <h3>Trivia Game</h3>
-                <a href="https://mhvue.github.io/TriviaGame"><img src="../TriviaGame/assets/images/FriendsGroupPic.jpg"
-                        class="img-fluid" alt="Friends show cast">
-    
-                </a>
-                <br>
-    
-                <h3>GIPHY</h3>
-                <a href="https://mhvue.github.io/GIPHY"><img src="../GIPHY/images/headphonesCopy.jpg" class="img-fluid"
-                        alt="pink background woman listening with headphones">
-    
-                </a>
-    
-    
-    
-    
-                <h3>Train Schedule</h3>
-                <a href="https://mhvue.github.io/TrainSchedule"><img src="../TrainSchedule/images/trainStation.jpg"
-                        class="img-fluid" alt="train station sunset">
-    
-                </a>
-    
-    
-            </div>
-            <div class="col-md-6">
-                <h4>Project Info</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque ut felis sed nibh imperdiet condimentum.
-                    Integer hendrerit risus id blandit euismod. Integer sit amet est laoreet,
-                    lobortis ante vel, vestibulum nisi. Quisque vehicula dolor nec elit rhoncus posuere.
-                    Etiam id volutpat est. Suspendisse potenti. Pellentesque habitant morbi tristique
-                    senectus et netus et malesuada fames ac turpis egestas. Donec sed tortor ornare,
-                    facilisis est vel, lobortis ante. In feugiat nec justo eget elementum.
-                    Mauris ultrices turpis eget felis blandit fringilla. </p>
+                <p>Checkout my amazing projects!</p>
             </div>
         </div>
-      </div> <!--closing for container Portfolio-->
-      <br>
+
+            <div class="row text-center">
+                <div class="col-md-6">
+                <div class="test">
+                    <img id="projectIcon"
+                            src="https://brando5393.github.io/project-1/assets/images/289-2892325_bookshelf-background-clipart.png"
+                            class="img-fluid" alt="bookshelf">
+                   <div class="box"><a href="https://brando5393.github.io/project-1/"><h5>Book Sleuth</h5></a><br>
+                       <a href="https://github.com/brando5393/project-1.git"><h5>Book Sleuth repository</h5></a>
+                    </div>
+                </div>
+                    <div class="test">
+                        <img id="crysPic" src="../unit-4-game/assets/images/cyrstals-cover.jpg"
+                            class="img-fluid" alt="crystals with color of blue,red,white,lavander">
+                    <div class="box"><a href="https://mhvue.github.io/unit-4-game"><h5>Crystal Collector</h5></a><br>
+                        <a href="https://github.com/mhvue/unit-4-game.git"><h5>Crystal Collector repository</h5></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="test">
+                        <br>
+                        <img id="friendsPic" src="../TriviaGame/assets/images/FriendsGroupPic.jpg" alt="Friends show cast" width="380px">
+                         <div class="box"><a href="https://mhvue.github.io/TriviaGame"><h5>Trivia Game</h5></a><br>
+                            <a href="https://github.com/mhvue/TriviaGame.git"><h5>Friends Trivia Game repository</h5></a>
+                        </div>
+                    </div>
+                    </a>
+
+                    <div class="test">
+                        <img src="../GIPHY/images/headphonesCopy.jpg" class="img-fluid"
+                            alt="pink background woman listening with headphones">
+                    <div class="box"><a href="https://mhvue.github.io/GIPHY"><h5>GIPHY</h5></a><br>
+                        <a href="https://github.com/mhvue/GIPHY.git"><h5>Giphy repository</h5></a>
+                    </div>
+                    </div>
+                </div>
+            </div>   
+            
+    </div> <!--closing for text-center -->
+</div><!--closing for container Portfolio-->
+        <br>
 
       <div class="container  bg-white text-dark  m-10 p-5">
         <div class="row">
-          <div class="col-md-12"><h4>Contact Me</h4>
+          <div class="col-md-12"><h2>Contact Me</h2>
             <hr>
           </div>
 
@@ -143,20 +136,20 @@
         <br>
          <div class="row">
               <div class="col-md-4">
-                  <h4 class= "contactHeader" id = "emailMe">Email Me</h4>
+                  <h5 class= "contactHeader" id = "emailMe">Email Me</h4>
                 <a href= "mailto:mhvue4@gmail.com"><img id="emailIcon" src="https://img.icons8.com/ios/100/000000/send-mass-email.png"></a> <br>
         </div>
         <br>
 
         <div class="col-md-4">
-            <h4 class= "contactHeader" id ="LinkedInMe">Connect with me on LinkedIn</h4>
+            <h5 class= "contactHeader" id ="LinkedInMe">Connect with me on LinkedIn</h5>
             <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="mai-houa-vue">
                 <a class="LI-simple-link" href='https://www.linkedin.com/in/mai-houa-vue?trk=profile-badge'>Mai Houa Vue</a></div>
         </div>
 
             <br>
             <div class="col-md-4">
-            <h4 class="contactHeader">Connect with me on GitHub </h4><br>
+            <h5 class="contactHeader">Connect with me on GitHub </h5><br>
             <a href = "https://github.com/mhvue"> <img id= "gitHubIcon" src = "images/GitHub-Mark-120px-plus.png"></a>
             </div>
 
